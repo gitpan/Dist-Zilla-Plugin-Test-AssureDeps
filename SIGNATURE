@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 91c44dd4d0de74a11bd89aa5b25a819e2ad676fd Changes
+SHA1 1ffeea66edb73c6039fc69b834a24c8c5a2e5d54 INSTALL
+SHA1 4dde25b9538eaab37558ffc59119b7e8e26e47af LICENSE
+SHA1 8ac4f9df03d18fcaa8c96af3104bb13c8c9795f0 MANIFEST
+SHA1 d919e5a677d838fd71227fc6f791b32f4faef4dc META.json
+SHA1 e5a051cefd8923fdfdbdf4ae4b6843da688ce4fc META.yml
+SHA1 71e51b90ec732930f14a5a6b30c655185882883b Makefile.PL
+SHA1 7e5b975a3ee547985798e18db81234889da65fab README
+SHA1 4daf1204736fe87648f7eb0479862abd6ac30847 dist.ini
+SHA1 214b466a8d05354578090c501d3e2a7e3345a2dc lib/Dist/Zilla/Plugin/Test/AssureDeps.pm
+SHA1 de329d6f07a39e5085dc47bdda0e5ff808d03164 t/00-assure-deps.t
+SHA1 14863e63ebceb712fe78ec64e52543a2e7909716 t/00-compile.t
+SHA1 6ea81e3865946a14536f97ccc65fee4b218c8148 t/release-kwalitee.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk6YhZMACgkQTd+EWiaICwpCOACdEbBjCKLLJ1wNoW9thl7NS9Gm
+/zsAoMSPrRI3V+2K1kao7aWyflKgprgx
+=tcuJ
+-----END PGP SIGNATURE-----
